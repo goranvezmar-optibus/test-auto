@@ -1,0 +1,52 @@
+{
+  "plugins": [
+    [
+      "npm",
+      {
+        "forcePublish": false
+      }
+    ],
+    [
+      "slack",
+      {
+        "auth": "app",
+        "channels": ["optibus-design-system"],
+        "atTarget": false
+      }
+    ]
+  ],
+  "author": "github-circle-ci <github-circle-ci@optibus.com>",
+  "noDefaultLabels": true,
+  "labels": [
+    {
+      "name": "major",
+      "description": "Used by intuit/auto to determine the release's version",
+      "releaseType": "major",
+      "changelogTitle": "Major",
+      "color": "#B60205"
+    },
+    {
+      "name": "minor",
+      "description": "Used by intuit/auto to determine the release's version",
+      "releaseType": "minor",
+      "changelogTitle": "Minor",
+      "color": "#FBCA04"
+    },
+    {
+      "name": "patch",
+      "description": "Used by intuit/auto to determine the release's version",
+      "releaseType": "patch",
+      "changelogTitle": "Patch",
+      "color": "#18D247"
+    },
+    {
+      "name": "skip release",
+      "description": "Used to prevent intuit/auto from releasing a new version",
+      "releaseType": "skip",
+      "color": "#000000"
+    }
+  ],
+  "canary": {
+    "target": "comment"
+  }
+}
