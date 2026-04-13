@@ -9,7 +9,7 @@ env:
 
 jobs:
   lint:
-    name: Lint Code
+    name: Lint and Type Check
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
@@ -34,3 +34,6 @@ jobs:
 
       - name: Run type check
         run: pnpm typecheck
+
+      - name: Run tests
+        run: pnpm test
