@@ -4,24 +4,27 @@ on:
   pull_request:
     branches: [main, next]
 
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+
 jobs:
   lint:
-    name: Lint Code
+    name: Lint and Type Check
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
 
+      - name: Install pnpm
+        uses: pnpm/action-setup@v4
+        with:
+          version: 10.33.0
+
       - name: Set up Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: "24"
+          node-version: "24.14.1"
           cache: "pnpm"
-
-      - name: Set up pnpm
-        run: |
-          corepack enable
-          corepack prepare pnpm@10.33.0 --activate
 
       - name: Install dependencies
         run: pnpm install --frozen-lockfile
@@ -31,3 +34,9 @@ jobs:
 
       - name: Run type check
         run: pnpm typecheck
+
+      - name: Install Playwright browsers
+        run: pnpm exec playwright install
+
+      - name: Run tests
+        run: pnpm test
