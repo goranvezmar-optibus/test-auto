@@ -3,10 +3,10 @@
     [
       "npm",
       {
-        "skipPublish": true
+        "skipPublish": true,
+        "setRcToken": false
       }
     ],
-    "git-tag",
     "released"
   ],
   "author": "github-release-bot <github-release-bot@optibus.com>",
