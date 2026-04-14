@@ -1,5 +1,11 @@
 {
   "plugins": [
+    [
+      "npm",
+      {
+        "setRcToken": false
+      }
+    ],
     "git-tag",
     "released"
   ],
