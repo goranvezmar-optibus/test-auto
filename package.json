@@ -1,6 +1,5 @@
 {
   "name": "ride-ui",
-  "private": true,
   "version": "1.0.1",
   "type": "module",
   "description": "Optibus UI component library.",
