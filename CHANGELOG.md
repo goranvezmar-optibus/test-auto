@@ -1,3 +1,16 @@
+# v1.0.1 (Tue Apr 14 2026)
+
+#### Patch
+
+- sdfsdfs [#14](https://github.com/goranvezmar-optibus/test-auto/pull/14) ([@goranvezmar-optibus](https://github.com/goranvezmar-optibus))
+- sdfsdfs [#13](https://github.com/goranvezmar-optibus/test-auto/pull/13) ([@goranvezmar-optibus](https://github.com/goranvezmar-optibus))
+
+#### Authors: 1
+
+- [@goranvezmar-optibus](https://github.com/goranvezmar-optibus)
+
+---
+
 # v1.0.0 (Tue Apr 14 2026)
 
 #### Major
