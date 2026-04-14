@@ -1,21 +1,5 @@
 {
-  "plugins": [
-    [
-      "npm",
-      {
-        "forcePublish": false
-      }
-    ],
-    [
-      "slack",
-      {
-        "auth": "app",
-        "channels": ["optibus-design-system"],
-        "atTarget": false
-      }
-    ]
-  ],
-  "author": "github-circle-ci <github-circle-ci@optibus.com>",
+  "author": "github-release-bot <github-release-bot@optibus.com>",
   "noDefaultLabels": true,
   "labels": [
     {
