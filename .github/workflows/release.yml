@@ -32,7 +32,7 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: "24.14.1"
-          registry-url: "https://npm.fury.io"
+          registry-url: "https://fury.io"
           scope: "@goranvezmar"
 
       - name: Install dependencies
