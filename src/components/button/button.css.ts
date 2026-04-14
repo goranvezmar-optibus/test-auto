@@ -5,7 +5,7 @@ import { vars } from "../../theme/theme.css";
 export const button = recipe({
   base: {
     border: "1px solid transparent",
-    borderRadius: "4px",
+    borderRadius: "6px",
     cursor: "pointer",
     transition:
       "background-color 0.3s ease, color 0.25s ease, opacity 0.23s ease",
