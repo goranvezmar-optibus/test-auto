@@ -21,7 +21,7 @@ importers:
         specifier: ^19.2.0
         version: 19.2.5(react@19.2.5)
     devDependencies:
-      '@auto-it/npm':
+      '@auto-it/git-tag':
         specifier: ^11.3.6
         version: 11.3.6(@types/node@24.12.2)(typescript@5.9.3)
       '@chromatic-com/storybook':
@@ -147,6 +147,9 @@ packages:
     peerDependenciesMeta:
       '@types/node':
         optional: true
+
+  '@auto-it/git-tag@11.3.6':
+    resolution: {integrity: sha512-0oMHnSJe94EQDzwWgtuYKCclfzNGtViDqfGizoxj0r24kLb6gk6C22Ww7nuxzCRtVuIiYnOY5CBZGJXtsvGtsw==}
 
   '@auto-it/npm@11.3.6':
     resolution: {integrity: sha512-yKYvlBcIRIOlFLJFpAq2ipdGihqyxAf5KZ9YeDxF/xN54XUV5A5kQqohSpAckxpWKBwxPIKODdLyY5Y0Tm0qfQ==}
@@ -3294,6 +3297,19 @@ snapshots:
       - '@swc/wasm'
       - encoding
       - supports-color
+
+  '@auto-it/git-tag@11.3.6(@types/node@24.12.2)(typescript@5.9.3)':
+    dependencies:
+      '@auto-it/core': 11.3.6(@types/node@24.12.2)(typescript@5.9.3)
+      semver: 7.7.4
+      tslib: 2.1.0
+    transitivePeerDependencies:
+      - '@swc/core'
+      - '@swc/wasm'
+      - '@types/node'
+      - encoding
+      - supports-color
+      - typescript
 
   '@auto-it/npm@11.3.6(@types/node@24.12.2)(typescript@5.9.3)':
     dependencies:
