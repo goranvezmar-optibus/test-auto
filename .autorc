@@ -1,5 +1,6 @@
 {
   "plugins": [
+    "npm",
     "git-tag",
     "released"
   ],
