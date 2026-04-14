@@ -45,4 +45,5 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           NODE_AUTH_TOKEN: ${{ secrets.FURY_TOKEN }}
+          NPM_TOKEN: ${{ secrets.FURY_TOKEN }}
         run: pnpm exec auto shipit
