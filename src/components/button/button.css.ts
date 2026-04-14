@@ -8,7 +8,7 @@ export const button = recipe({
     borderRadius: "6px",
     cursor: "pointer",
     transition:
-      "background-color 0.3s ease, color 0.25s ease, opacity 0.23s ease",
+      "background-color 0.3s ease, color 0.35s ease, opacity 0.23s ease",
     ":hover": {
       opacity: 0.85,
     },
