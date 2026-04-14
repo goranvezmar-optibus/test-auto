@@ -24,7 +24,7 @@ importers:
       '@auto-it/git-tag':
         specifier: ^11.3.6
         version: 11.3.6(@types/node@24.12.2)(typescript@5.9.3)
-      '@auto-it/npm':
+      '@auto-it/released':
         specifier: ^11.3.6
         version: 11.3.6(@types/node@24.12.2)(typescript@5.9.3)
       '@chromatic-com/storybook':
