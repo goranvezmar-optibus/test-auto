@@ -32,6 +32,8 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: "24.14.1"
+          registry-url: "https://npm.fury.io"
+          scope: "goranvezmar"
 
       - name: Install dependencies
         run: pnpm install --frozen-lockfile
@@ -48,21 +50,5 @@ jobs:
       - name: Run Auto
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          NPM_CONFIG_PREFER_OFFLINE: "true"
+          NPM_TOKEN: ${{ secrets.FURY_TOKEN }}
         run: pnpm exec auto shipit
-
-      - name: Publish to Gemfury
-        run: |
-          if [[ "${{ github.event_name }}" == "pull_request" ]]; then
-            TAG=canary
-          elif [[ "${{ github.ref }}" == "refs/heads/next" ]]; then
-            TAG=next
-          else
-            TAG=latest
-          fi
-
-          echo "Publishing with tag: $TAG"
-
-          npm publish \
-            --registry https://npm.fury.io/goranvezmar/ \
-            --tag $TAG
