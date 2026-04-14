@@ -1,3 +1,15 @@
+# v1.0.0 (Tue Apr 14 2026)
+
+#### Major
+
+- test [#11](https://github.com/goranvezmar-optibus/test-auto/pull/11) ([@goranvezmar-optibus](https://github.com/goranvezmar-optibus))
+
+#### Authors: 1
+
+- [@goranvezmar-optibus](https://github.com/goranvezmar-optibus)
+
+---
+
 # v0.0.1 (Tue Apr 14 2026)
 
 #### Patch
