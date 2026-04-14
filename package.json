@@ -1,5 +1,5 @@
 {
-  "name": "@goranvezmar/ride-ui",
+  "name": "ride-ui",
   "version": "1.0.7",
   "type": "module",
   "description": "Optibus UI component library.",
@@ -42,7 +42,7 @@
     "package.json"
   ],
   "publishConfig": {
-    "registry": "https://fury.io"
+    "registry": "https://npm.fury.io/goranvezmar/"
   },
   "dependencies": {
     "@base-ui/react": "^1.3.0",
