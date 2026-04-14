@@ -7,6 +7,5 @@ test("button", async () => {
   const screen = await render(<Button>Click</Button>);
   const buttonElement = screen.getByRole("button");
 
-  expect(buttonElement).toBeInTheDocument();
   expect(buttonElement).toHaveTextContent("Click");
 });
