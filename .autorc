@@ -1,12 +1,5 @@
 {
-  "plugins": [
-    [
-      "npm",
-      {
-        "forcePublish": false
-      }
-    ]
-  ],
+  "noPublish": true,
   "author": "github-release-bot <github-release-bot@optibus.com>",
   "noDefaultLabels": true,
   "labels": [
