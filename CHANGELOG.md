@@ -1,3 +1,15 @@
+# v1.0.4 (Tue Apr 14 2026)
+
+#### Patch
+
+- sdfsdf [#22](https://github.com/goranvezmar-optibus/test-auto/pull/22) ([@goranvezmar-optibus](https://github.com/goranvezmar-optibus))
+
+#### Authors: 1
+
+- [@goranvezmar-optibus](https://github.com/goranvezmar-optibus)
+
+---
+
 # v1.0.3 (Tue Apr 14 2026)
 
 #### Patch
