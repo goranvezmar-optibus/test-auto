@@ -3,7 +3,6 @@
     [
       "npm",
       {
-        "skipPublish": true,
         "setRcToken": false
       }
     ],

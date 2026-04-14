@@ -5,6 +5,7 @@
   "description": "Optibus UI component library.",
   "author": "Dan Fishgold dan.fishgold@optibus.com",
   "license": "© 2026 Optibus. All Rights Reserved.",
+  "private": true,
   "homepage": "https://github.com/Optibus/ride-ui#readme",
   "repository": {
     "type": "git",
