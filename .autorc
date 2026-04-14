@@ -1,5 +1,11 @@
 {
   "plugins": [
+    [
+      "npm",
+      {
+        "skipPublish": true
+      }
+    ],
     "git-tag",
     "released"
   ],
