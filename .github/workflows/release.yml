@@ -33,7 +33,7 @@ jobs:
         with:
           node-version: "24.14.1"
           registry-url: "https://npm.fury.io"
-          scope: "goranvezmar"
+          scope: "@goranvezmar"
 
       - name: Install dependencies
         run: pnpm install --frozen-lockfile
