@@ -1,6 +1,12 @@
 {
   "plugins": [
-    "npm",
+    [
+      "npm",
+      {
+        "registry": "https://fury.io",
+        "setRcToken": false
+      }
+    ],
     "git-tag",
     "released"
   ],
