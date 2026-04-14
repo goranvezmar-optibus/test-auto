@@ -1,3 +1,20 @@
+# v1.0.2 (Tue Apr 14 2026)
+
+#### Patch
+
+- sdfsdf [#20](https://github.com/goranvezmar-optibus/test-auto/pull/20) ([@goranvezmar-optibus](https://github.com/goranvezmar-optibus))
+- Test18 [#19](https://github.com/goranvezmar-optibus/test-auto/pull/19) ([@goranvezmar-optibus](https://github.com/goranvezmar-optibus))
+- sdfsdf [#18](https://github.com/goranvezmar-optibus/test-auto/pull/18) ([@goranvezmar-optibus](https://github.com/goranvezmar-optibus))
+- sdfsdf [#17](https://github.com/goranvezmar-optibus/test-auto/pull/17) ([@goranvezmar-optibus](https://github.com/goranvezmar-optibus))
+- sdfsdf [#16](https://github.com/goranvezmar-optibus/test-auto/pull/16) ([@goranvezmar-optibus](https://github.com/goranvezmar-optibus))
+- sdfsdfs [#15](https://github.com/goranvezmar-optibus/test-auto/pull/15) ([@goranvezmar-optibus](https://github.com/goranvezmar-optibus))
+
+#### Authors: 1
+
+- [@goranvezmar-optibus](https://github.com/goranvezmar-optibus)
+
+---
+
 # v1.0.1 (Tue Apr 14 2026)
 
 #### Patch
