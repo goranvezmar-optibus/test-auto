@@ -1,6 +1,6 @@
 {
   "name": "ride-ui",
-  "version": "1.0.1",
+  "version": "1.0.5",
   "type": "module",
   "description": "Optibus UI component library.",
   "author": "Dan Fishgold dan.fishgold@optibus.com",
