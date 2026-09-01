@@ -22,7 +22,7 @@ export type ThemeSwitcherProps = {
  * </ThemeProvider>
  */
 export function ThemeSwitcher({
-  lightLabel = "Switch to light",
+  lightLabel = "Switch to lighta",
   darkLabel = "Switch to dark",
 }: ThemeSwitcherProps) {
   const { theme, toggleTheme } = useTheme();
