@@ -14,10 +14,18 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+      - name: Mint release bot token
+        id: release_token
+        uses: actions/create-github-app-token@v2
+        with:
+          app-id: ${{ secrets.RELEASE_BOT_APP_ID }}
+          private-key: ${{ secrets.RELEASE_BOT_PRIVATE_KEY }}
+
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
+          token: ${{ steps.release_token.outputs.token }}
 
       - name: Set up pnpm
         uses: pnpm/action-setup@v4
@@ -37,6 +45,6 @@ jobs:
 
       - name: Run Auto
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ steps.release_token.outputs.token }}
           NPM_TOKEN: ${{ secrets.FURY_TOKEN }}
         run: pnpm exec auto shipit
