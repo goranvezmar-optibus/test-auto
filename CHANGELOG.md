@@ -1,3 +1,15 @@
+# v2.0.2 (Tue Sep 01 2026)
+
+#### Patch
+
+- test [#43](https://github.com/goranvezmar-optibus/test-auto/pull/43) ([@goranvezmar-optibus](https://github.com/goranvezmar-optibus))
+
+#### Authors: 1
+
+- Goran Vezmar ([@goranvezmar-optibus](https://github.com/goranvezmar-optibus))
+
+---
+
 # v2.0.1 (Tue Sep 01 2026)
 
 #### Patch
