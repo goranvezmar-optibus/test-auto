@@ -29,6 +29,7 @@ export function ThemeSwitcher({
 
   return (
     <button onClick={toggleTheme} type="button">
+      a
       {theme === "light" ? darkLabel : lightLabel}
     </button>
   );
