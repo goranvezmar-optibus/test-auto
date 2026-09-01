@@ -1,3 +1,19 @@
+# v2.0.1 (Tue Sep 01 2026)
+
+#### Patch
+
+- test [#42](https://github.com/goranvezmar-optibus/test-auto/pull/42) ([@goranvezmar-optibus](https://github.com/goranvezmar-optibus))
+- Testing gh app [#41](https://github.com/goranvezmar-optibus/test-auto/pull/41) ([@goranvezmar-optibus](https://github.com/goranvezmar-optibus))
+- test [#40](https://github.com/goranvezmar-optibus/test-auto/pull/40) ([@goranvezmar-optibus](https://github.com/goranvezmar-optibus))
+- test [#39](https://github.com/goranvezmar-optibus/test-auto/pull/39) ([@goranvezmar-optibus](https://github.com/goranvezmar-optibus))
+- added pr checklist [#38](https://github.com/goranvezmar-optibus/test-auto/pull/38) ([@goranvezmar-optibus](https://github.com/goranvezmar-optibus))
+
+#### Authors: 1
+
+- Goran Vezmar ([@goranvezmar-optibus](https://github.com/goranvezmar-optibus))
+
+---
+
 # v2.0.0 (Tue Apr 14 2026)
 
 #### Major
